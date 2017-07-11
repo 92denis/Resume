@@ -258,7 +258,49 @@ li.active>a{
     border-radius: 0;
     float: none;
 }
+    #education .year{
+    width: 10%;
+    font-size: 11px;
+    font-weight: bolder;
+    padding: 10px;
+    display: inline-block;
+    background: white;
+}
+#education::before{
+    position: absolute;
+    list-style: none;
+    width: 5px;
+    height: 100%;
+    display: block;
+    background: #F0563D;
+    content: " ";
+    left: 17px;
+    top: 0;
+}
+ #education .content:after, #education .content:before{
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -18px; top: 7px; /*Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-right: 10px solid #ededed; /* Добавляем треугольник */
+    z-index: -1;
+}
+#education .content{
+    width: 88%;
+    padding: 5px;
+    background: #ededed;
+    position: relative;
     
+}
+ div.title{
+    font-size: 13px;
+    font-weight: bolder;
+    }
+
+ div.discription{
+    font-size: 10px;
+    padding: 1px;
+ }
 }
 @media only screen and (max-width : 992px) {
     li.active>a{
@@ -271,4 +313,7 @@ li.active>a{
     
     }
  
+}
+@media only screen and (max-width : 480px) {
+
 }
