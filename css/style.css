@@ -10,6 +10,12 @@ body{
     margin: 90px;
     background: white;
 }
+a{
+    color: #363636;
+}
+a:hover{
+     color: #EC7263;
+}
 .row{
     margin-bottom: 15px;
 }
@@ -109,7 +115,16 @@ div{
      position: relative;
      margin-top: 10px;
      padding-left: 0;
+    
  }
+ #education .content:after, #education .content:before{
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -20px; top: 10px; /*Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-right: 10px solid #ededed; /* Добавляем треугольник */
+    z-index: -1;
+}
 #education .year{
     width: 10%;
     font-size: 16px;
@@ -119,9 +134,10 @@ div{
     background: white;
 }
  #education .content{
-    width: 90%;
+    width: 88%;
     padding: 10px;
     background: #ededed;
+    position: relative;
 }
 
 #education li {
@@ -131,6 +147,7 @@ div{
     float: left;
     margin: 5px 0 10px;
 }
+
 #education::before{
     position: absolute;
     list-style: none;
@@ -161,21 +178,21 @@ div{
     height: 10px;
 }
 .legend{
-    width: 75px;
+    width: 16.4%;
     font-size: 11px;
     color:#a9a9a9;
     font-weight: bolder;
 }
 .legend-right{
     text-align: right;
-    width: 72px;
+    width: 15.7%;
     font-size: 11px;
     color:#a9a9a9;
     font-weight: bolder;
 }
 .legend-center{
     text-align: center;
-    width: 83px;
+    width: 17.7%;
     font-weight: bolder;
     font-size: 11px;
     color:#a9a9a9;
@@ -227,7 +244,31 @@ li.active>a{
     margin-right: 10px;
     padding: 5px;
     border-radius: 0;
+    float: left;
 }
 .nav-stacked>li+li {
     margin-top: 0; 
+}
+@media only screen and (max-width : 767px) {
+    li.active>a{
+    background-color: #A75265 !important;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 0;
+    float: none;
+}
+    
+}
+@media only screen and (max-width : 992px) {
+    li.active>a{
+    background-color: #A75265 !important;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 0;
+    float: none;
+    
+    }
+ 
 }
