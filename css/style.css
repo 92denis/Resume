@@ -7,7 +7,7 @@ body{
     background: #ededed;
     }
 .container{
-    margin: 90px;
+    margin: 90px auto;
     background: white;
 }
 a{
