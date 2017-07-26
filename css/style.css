@@ -102,7 +102,7 @@ div{
 }
 .progress{
     height: 30px;
-  
+    margin: 5px 0px;  
 }
  div.title{
     font-size: 16px;
