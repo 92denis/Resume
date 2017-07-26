@@ -91,15 +91,18 @@ div{
 }
 .item-skills{
     background: #F0563D;
-    padding: 6px 10px;
-    margin-top: 5px;
     font-size: 12px;
     color: white;
     font-weight: 700;
-    height: 30px;
+    padding: 5px 10px;
+      text-align: left;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.progress{
+    height: 30px;
+  
 }
  div.title{
     font-size: 16px;
