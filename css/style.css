@@ -129,15 +129,16 @@ div{
     z-index: -1;
 }
 #education .year{
-    width: 10%;
-    font-size: 16px;
+    text-align: center;
+    width: 15%;
+    font-size: 15px;
     font-weight: bolder;
     padding: 10px;
     display: inline-block;
     background: white;
 }
  #education .content{
-    width: 88%;
+    width: 83%;
     padding: 10px;
     background: #ededed;
     position: relative;
@@ -159,7 +160,7 @@ div{
     display: block;
     background: #F0563D;
     content: " ";
-    left: 25px;
+    left: 45px;
     top: 0;
 }
 .border-skills{
@@ -242,28 +243,30 @@ div{
 
 }
 li.active>a{
-    background-color: #A75265 !important;
+    background-color: #F0563D !important;
     font-size: 12px;
     margin-right: 10px;
     padding: 5px;
     border-radius: 0;
     float: left;
+    font-weight: bold;
 }
 .nav-stacked>li+li {
     margin-top: 0; 
 }
 @media only screen and (max-width : 767px) {
     li.active>a{
-    background-color: #A75265 !important;
+    background-color: #F0563D !important;
     font-size: 12px;
     margin-top: 10px;
     padding: 5px;
     border-radius: 0;
     float: none;
+    font-weight: bold;
 }
     #education .year{
-    width: 10%;
-    font-size: 11px;
+    width: 15%;
+    font-size: 10px;
     font-weight: bolder;
     padding: 10px;
     display: inline-block;
@@ -277,7 +280,7 @@ li.active>a{
     display: block;
     background: #F0563D;
     content: " ";
-    left: 17px;
+    left: 38px;
     top: 0;
 }
  #education .content:after, #education .content:before{
@@ -289,7 +292,7 @@ li.active>a{
     z-index: -1;
 }
 #education .content{
-    width: 88%;
+    width: 83%;
     padding: 5px;
     background: #ededed;
     position: relative;
@@ -307,16 +310,29 @@ li.active>a{
 }
 @media only screen and (max-width : 992px) {
     li.active>a{
-    background-color: #A75265 !important;
+    background-color: #F0563D !important;
     font-size: 12px;
     margin-top: 10px;
     padding: 5px;
     border-radius: 0;
     float: none;
+    font-weight: bold;
     
     }
  
 }
 @media only screen and (max-width : 480px) {
+   
+    #education::before{
+    position: absolute;
+    list-style: none;
+    width: 5px;
+    height: 100%;
+    display: block;
+    background: #F0563D;
+    content: " ";
+    left: 30px;
+    top: 0;
+}
 
 }
