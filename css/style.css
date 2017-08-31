@@ -246,6 +246,7 @@ div{
 
 }
 li.active>a{
+    width: 25%;
     background-color: #F0563D !important;
     font-size: 12px;
     margin-right: 10px;
@@ -254,6 +255,7 @@ li.active>a{
     border-radius: 0;
     float: left;
     font-weight: bold;
+    text-align: center;
 }
 .nav-stacked>li+li {
     margin-top: 0; 
