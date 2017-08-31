@@ -245,8 +245,9 @@ div{
    color:red;
 
 }
+
 li.active>a{
-    width: 25%;
+    width: 30%;
     background-color: #F0563D !important;
     font-size: 12px;
     margin-right: 10px;
@@ -256,6 +257,18 @@ li.active>a{
     float: left;
     font-weight: bold;
     text-align: center;
+}
+div.hobbies > ul >li>a{
+    background-color: #F0563D !important;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 0;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    color: white;
 }
 .nav-stacked>li+li {
     margin-top: 0; 
