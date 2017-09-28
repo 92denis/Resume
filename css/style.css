@@ -22,6 +22,12 @@ a:hover{
 .row{
     margin-bottom: 15px;
 }
+.shared{
+    top: 20px;
+    float: right;
+    position: absolute;
+    right: 25px;
+}
 img.avatar {
     border: 5px solid #ededed;
     border-radius: 50%;
@@ -30,8 +36,6 @@ img.avatar {
     margin-top: -75px;
     display: inline-block;
     text-align: center; 
-
-
 }
 #text-header{
     padding: 0;
